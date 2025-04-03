@@ -1,0 +1,25 @@
+h1{
+    display: flex;
+    justify-content: center;
+    
+    color: white;
+}
+body{
+    background-color: #29b5e2;
+    color: black;
+}
+
+button{
+    background-color: #137ea0 ;
+    color: white;
+    margin: 6px;
+    padding: 10px;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: black;
+color: #99a3a4;
+}
+h2{
+    color: black;
+}

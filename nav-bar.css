@@ -1,0 +1,29 @@
+.nav-bar{
+text-decoration: none;
+padding: 25px;
+background: green;
+color: white;
+}
+nav{
+    display: flex;
+justify-content: space-around;
+
+}
+
+nav:hover{
+    
+
+color: green;
+
+}
+
+@media (max-width:300px) {
+    nav{
+background: white;
+flex-direction: column;
+    }
+    
+    .nav-bar{
+        margin:10px 0px
+    }
+}

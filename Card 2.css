@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+ font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{text-decoration: none;
+    color: #0c82df ;
+}
+
+section{
+    padding: 10rem 0;
+    background-color: beige;
+}
+
+.heading{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: #0c82df;
+    position: relative;
+}
+
+.heading::after{
+    content: "";
+    width: 10rem;
+    height: .8rem;
+    background-color: #0c82df;
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+}
+
+  
+.card-wrapper{ 
+    display: flex;
+    align-items: center;
+    align-content:center ;
+    flex-direction: column;
+
+}
+
+.card{
+    width: 42rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    box-shadow: .5rem .5rem 3rem rgb(0, 0, 0);
+}
+
+.card .card-img{
+    width: 100%;
+    height: 26rem;
+    object-fit: cover;
+    clip-path: polygon(0 3%, 100% 0%, 100% 71%, 1% 96%);
+}
+
+.profile-img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -11rem;
+    z-index: 999;
+    border: 1rem solid rgb(255, 255, 255);
+}
+
+.card h1{
+    font-size: 2.5rem;
+    color: grey;
+    margin: 1.5rem;
+}
+
+.jod-title{
+    color: grey;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.about{
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    text-align: center;
+    color: black
+}
+.card .btn{
+padding: 1rem 2.5rem;
+background-color: #0c82df ;
+border-radius: 2rem;
+margin: 1rem 0;
+text-transform: uppercase;
+color: white;
+font-size: 1.4rem;
+transition: all .5s;
+}
+
+.card .btn:hover{
+    transform: translateY(-5px);
+    box-shadow: .5rem .5rem 2rem rgb(0, 0, 0);
+}
+
+.social-media{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgb(0, 0, 0, .1);
+    
+}
+.social-media{
+    font-size: 3rem;
+}
+
+.fa-facebook-square{
+    color: #0000FF;
+}
+
+.fa-twitter-square{
+    color: #00acee;
+}
+
+.fa-instagram-square{
+    color: #C13584;
+}
+
+.fa-google-plus-square{
+    color: #e41212 ;
+}
+
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-instagram-square:hover,
+.fa-google-plus-square:hover{
+    color: darkslategray;
+}

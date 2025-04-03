@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fornularios</title>
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+<body>
+
+    <h1>Registro de Usuario</h1>
+    <hr>
+    <h2>Por favor diligenciar el siguinete formulario de la forma correcta</h2>
+    <br>
+    <form action="Procesar.php" method="post"></form>
+
+    <label for="Nombre"> <i>Nombre:</i></label>
+    <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" required>
+    <br><br>
+    <label for="Apellido"> <i>Apellido:</i></label>
+    <input type="text" id="Apellido" name="Apellido" placeholder="Apellido" required>
+    <br><br>
+    <label for="e-mail"><i>E-mail:</i></label>
+    <input type="email" id="e-mail" name="e-mail" placeholder="E-mail" required>
+    <br><br>
+    <label for="Edad"><i>Edad:</i></label>
+    <input type="number" id="Edad" name="Edad" placeholder="Edad" required>
+    <br><br>
+    <label for="Genero"><i>Genero:</i></label>
+        <select name="Genero" id="Genero">
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+            <option value="LGBTI">LGBTI</option>
+            <option value="Otro">Otro</option>
+        </select>
+    <br><br>
+    <label for="Pais"> <i>Pais:</i></label>
+    <input type="text" id="Pais" name="Pais" placeholder="Pais" required>
+    <br><br>
+    <label for="Estado civil"><i>Estado civil:</i></label>
+    <select name="Estado civil" id="Estado civil">
+        <option value="Casado">Casado</option>
+        <option value="Unión libre">Unión libre</option>
+        <option value="Soltero">Soltero</option>
+        <option value="Es complicado">Es complicado</option>
+    </select>
+    <br><br>
+    <label for="Contraeña"><i>Contraeña:</i></label>
+    <input type="text" id="Contraeña" name="Contraeña" placeholder="Contraeña" required>
+    <br><br>
+    <label for="Hobbies">Hobbies</label>
+    <input type="checkbox" name="Hobbies" id="Musica" value="Musica">
+    <label for="Musica">Musica</label>
+    <input type="checkbox" name="Hobbies" id="Lectura" value="Lectura">
+    <label for="Lectura">Lectura</label>
+    <input type="checkbox" name="Hobbies" id="Deportes" value="Deportes">
+    <label for="Deportes">Deportes</label>
+    <br><br>
+    <label for=""></label>
+    <br><br>
+    <label for="Comentario">Comentario</label><br>
+    <textarea name="Comentario" placeholder="Comentario" id="Comentario" cols="40" rows="10"></textarea>
+    <br><br>
+    <button type="button">Enviar</button>
+    <button type="reset">Borar </button>
+    
+</body>
+</html>
